@@ -1,0 +1,85 @@
+
+@font-face
+{
+    font-family:'Singer';
+    src:url('static/FZJunHJW_Zhong.TTF');
+}
+@font-face
+{
+    font-family:'Song';
+    src:url('static/FZJunHJW_Xi.TTF');
+}
+
+@font-face
+{
+    font-family:'Date';
+    src:url('static/mntcgh.otf');
+}
+
+
+.result_show{
+    visibility: visible;;
+    width: 635px;
+}
+
+
+.singername{
+    margin-top:50px;
+    font-family:"Singer";
+}
+
+.songname{
+    margin-bottom:50px;
+    font-family:"Song";
+}
+
+
+.topimage{
+    margin-bottom:100px;
+    height:490px;
+
+}
+.bottomimage{
+    margin-top:100px;
+    height:465px;
+
+}
+
+.editor {
+    width: 636px;
+    padding: 3px;
+    outline: 0;
+    font-size: 36px;
+    word-wrap: break-word;
+    overflow-x: hidden;
+    overflow-y: auto;
+    _overflow-y: visible;
+    text-align: center;
+}
+
+.date{
+    line-height:20px;
+    font-size:32px;
+    font-family:Date;
+    position:relative;
+    left:140px;
+    top:160px;
+    text-align:center;
+    color:white;
+    transform:rotate(20deg);
+    -webkit-transform:rotate(20deg);
+    -moz-transform:rotate(20deg);
+}
+
+.content{
+    width:635px;
+    background-color:white;
+}
+* {
+    padding:0px;
+    margin:0px;
+}
+.main{
+    width:635px;
+
+}

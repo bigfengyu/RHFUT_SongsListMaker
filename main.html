@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>歌单生成器</title>
+    <script type="text/javascript" src="maker.js"></script>
+    <script type="text/javascript" src="html2canvas.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="template.css">
+</head>
+
+<body>
+    <div id="container">
+        <textarea id = "songtext" class="songtext" name="songs"></textarea>
+        <button class="btn" onclick="maker()" value="提交">生成</button>
+    </div>
+    <div id="result" class="hidden">
+        <div class="main">
+            <div class="content">
+                <div class="image topimage" id="topimage">
+                    <div class="date">
+                        <p id="dateP"></p>
+                    </div>
+                </div>
+                <div id="middle" class="middle">
+                </div>
+                <div class="image bottomimage" id="bottomimage")></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.btn {
+    border: 1px solid #757575;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    height: 26px;
+    text-align: center;
+    width: 92px;
+    margin:10px auto 0 auto;
+    background: #ffffff;
+}
+.songtext {
+    display: block;
+    margin:20px auto 0 auto;
+    padding: 10px;
+    width: 400px;
+    border: 1px solid #757575;
+    border-radius: 10px;
+    height: 500px;
+}
+
+.btn:hover{
+    background: #5079d9;
+    color: #ffffff;
+}
+
+.hidden {
+    position: absolute;
+    top: -9999px;
+}
